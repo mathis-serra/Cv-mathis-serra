@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+
+.box{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.box .left{
+    position: relative;
+    background: rgb(31, 31, 79);
+    padding: 40px;
+}
+
+.identite{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+
+}
+
+.identite .img-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden    ; 
+}
+
+.identite .img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.identite h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.identite h2 span{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+.contact{
+    padding-top: 40px;
+}
+
+.contact-info{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+        
+}
+
+.contact-info2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.contact ul{
+    position: relative;
+
+}
+
+.contact ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+.contact-education li {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-education h5{
+    color: lightblue; 
+    font-weight: 500;  
+}
+
+.contact-education h4{
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact-langue li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-langue .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: gray;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.contact-langue .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: lightblue;
+}
+
+.box .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.titre{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+ul.exp{
+    color: #333;
+
+}
+ul.exp h3{
+    margin-top: 10px;
+}
+
+.comp h4{
+    margin-bottom: 20px;
+}
+
+.comp span{
+    margin-bottom: 30px;
+    font-weight: 400;
+    
+}
+
+.comp .percent{
+    position: relative;
+    width: 50%;
+    height: 6px;
+    background: gray;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.comp .percent div{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(86, 202, 241);
+}
+.comp h4.language{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.titre2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.portfolio h4{
+    font-weight: 600;
+}
+
+.portfolio li{
+    margin-top: 10px;
+
+}
+
